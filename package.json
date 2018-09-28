@@ -1,0 +1,19 @@
+{
+  "name": "testtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikku/testtest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikku/testtest/issues"
+  },
+  "homepage": "https://github.com/nikku/testtest#readme"
+}
