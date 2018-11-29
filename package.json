@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"no test specified\""
+    "test": "nyc --reporter=lcov node test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nikku/testtest/issues"
   },
-  "homepage": "https://github.com/nikku/testtest#readme"
+  "homepage": "https://github.com/nikku/testtest#readme",
+  "devDependencies": {
+    "nyc": "^13.1.0"
+  }
 }
